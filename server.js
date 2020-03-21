@@ -1,4 +1,3 @@
-    require('dotenv').config({ path: 'variables.env' });
 
     const express = require('express');
     const webPush = require('web-push');
@@ -11,8 +10,8 @@
 
     app.use(express.static(path.join(__dirname, 'Client')));
 
-    const publicVapidKey = process.env.PUBLIC_VAPID_KEY;
-    const privateVapidKey = process.env.PRIVATE_VAPID_KEY;
+    const publicVapidKey = "BKj8xTi-oib97fmdv_MSxsVEYZ8cmQ4C5jqOn1ZxK5K_r55HNQ9HFMbqadKJJL-Jt20V68p-lsWIssEErXZsEZE";
+    const privateVapidKey = "M0oo1FMXQAL-6oU4V7hBpL-MoBl0qHxFmwPalLWZkqQ";
 
     webPush.setVapidDetails('mailto:test@example.com', publicVapidKey, privateVapidKey);
 

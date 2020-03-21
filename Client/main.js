@@ -14,8 +14,9 @@ function urlBase64ToUint8Array(base64String) {
   }
 
   const publicVapidKey = 'BKj8xTi-oib97fmdv_MSxsVEYZ8cmQ4C5jqOn1ZxK5K_r55HNQ9HFMbqadKJJL-Jt20V68p-lsWIssEErXZsEZE';
-
+  
   const triggerPush = document.querySelector('.trigger-push');
+
 
   async function triggerPushNotification() {
     if ('serviceWorker' in navigator) {
