@@ -5,7 +5,7 @@ self.addEventListener('push',(event)=> {
     var title = "Corona";
     event.waitUnitil(
         self.registration.showNotification(title, {
-            body: 'Wash ur hands & Protect urself from corona Virus',
+            body:'Wash ur hands & Protect urself from corona Virus',
             icon:'index.jpg',
             tag: 'Fatima & Nada'
             
