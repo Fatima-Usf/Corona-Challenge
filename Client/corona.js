@@ -6,7 +6,7 @@ self.addEventListener('push',(event)=> {
     event.waitUnitil(
         self.registration.showNotification(title, {
             body: 'protect urself from corona Virus',
-            tag: 'Fatima & Nada'
+            tag:  'Fatima & Nada'
             
         }));
 

@@ -9,7 +9,7 @@
 
     app.use(bodyParser.json());
 
-    app.use(express.static(path.join(__dirname, 'client')));
+    app.use(express.static(path.join(__dirname, 'Client')));
 
     const publicVapidKey = process.env.PUBLIC_VAPID_KEY;
     const privateVapidKey = process.env.PRIVATE_VAPID_KEY;
@@ -22,7 +22,7 @@
       res.status(201).json({});
 
       const payload = JSON.stringify({
-        title: 'Push notifications with Service Workers',
+        title: 'Push notifications of coronaVirus with Service Workers',
       });
 
       webPush.sendNotification(subscription, payload)
