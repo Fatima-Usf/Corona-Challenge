@@ -95,7 +95,10 @@ p{
 }
 
 .front {
-  border: 2px solid black;
+  border: 2px solid #1e8471;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)),url(3573497.jpg);
+  background-repeat: no-repeat;
+  background-size: 500px;
 }
 
 .front:hover {
@@ -105,7 +108,7 @@ p{
 }
 
 .back {
-  border: 2px solid black;
+  border: 2px solid #1e8471;
   transform: rotateY(180deg);
 }
 
@@ -113,4 +116,8 @@ p{
   bottom: 2px;
   right: 2px;
   box-shadow: 0px 0px 20px 1px #000;
+}
+#txt{
+  margin-top: 350px;
+  color: #35555f;
 }
