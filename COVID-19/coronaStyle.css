@@ -1,0 +1,193 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Century Gothic;
+}
+.tom{
+	width: 80px;
+	height: 100%;
+	
+}
+header{
+	background-image: url(Icons/tof.jpg);
+
+	height: 100vh;
+	background-size: cover;
+
+	/*background-position: center;
+	*/
+
+}
+.float{
+	float: right;
+}
+nav{
+	background-color: rgba(91,188,233,0.3);
+
+}
+nav ul{
+	margin-top: 20px;
+	font-size: 20px;
+	/*font-weight: bold;*/
+	color: white;
+}
+nav ul li a{
+	color: #222224;
+}
+header h1{
+
+	color: #1c68ca;
+	margin-top: 100px;
+	font-weight: bold;
+	font-family: serif;
+	width: 50%;
+	text-align: center;
+
+}
+header p{
+	margin-left: 50px;
+	margin-top: 30px;
+
+	color: #222224;
+}
+header button{
+    width: 200px;
+	height: 50px;
+	margin-top: 50px;
+    background-color: #0065e4;
+	color:white;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 20px;
+	border: 1px solid transparent;
+
+
+}
+.coronaDef{
+	margin-top: 50px;
+	padding: 20px;
+	border: 4px solid #0065e4;
+		border-radius: 10px;
+	margin-bottom: 50px;
+
+}
+.definition img{
+	margin-top: 50px;
+	width: 98%;
+	height: 100%;
+
+}
+.section{
+	float: right;
+	width: 60%;
+}
+.section2{
+	
+		border: 1px solid #f0f4f6;
+		margin: 5px;
+		padding: 15px;
+		width: 300px;
+		display: inline-block;
+
+		
+
+}
+.section2 img{
+	width: 50px;
+	height: 50px;
+	background-color: #f0f4f6;
+	padding: 3px;
+	border-radius: 50%;
+	margin-right: 20px
+}
+.interne h4{
+	display: inline-block;
+
+}
+.interne p{
+	font-size: 13px;
+	margin-top: 15px;
+	color: #8e8e8e
+}
+.section1{
+		width: 38%;
+	display: inline-block;
+	float: left;
+	margin-top: 100px;
+
+
+}
+.section1 p{
+		color: #8e8e8e;
+		margin-top: 40px;
+}
+.section1 h1, .vaccinSide h1, .symptomesSide h1{
+	color: #242429;
+	font-weight: bold;
+	font-family: serif;
+}
+
+
+.both{
+	clear: both;
+}
+.vaccinImg{
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 50px;}
+.vaccinSide{
+	width: 51%;
+	height: 100%;
+	float: right;
+	margin-top: 50px;
+
+	padding-left: 50px;
+
+
+}
+.vaccinSide p{
+
+		color: #8e8e8e;
+
+	margin-top: 50px;
+
+}
+.symptomesSide{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+
+
+}
+.symptomes{
+	margin-left: 50px;
+}
+.symptomes ul{
+	list-style-type: none;
+
+}
+.symptomes ul li{
+   /* display: inline-block;*/
+}
+
+.symptomes ul li img{
+	width: 50px;
+	height: 50px;
+
+	border-radius: 50%;
+
+	background-color: #f0f4f6;
+	margin: 10px;
+
+
+}
+.imageSym{
+	margin: auto;
+	text-align: center;
+
+}
+.imageSym img{
+	width: 80%;
+	height: 100%;
+	
+}
