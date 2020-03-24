@@ -1,7 +1,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
-	font-family: Century Gothic;
+	font-family:"Roboto", Helvetica, Arial, sans-serif;
 }
 .tom{
 	width: 80px;
@@ -36,10 +36,10 @@ nav ul li a{
 }
 header h1{
 
-	color: #1c68ca;
+	color: #0065e4;
 	margin-top: 100px;
-	font-weight: bold;
-	font-family: serif;
+	/*font-weight: bold; */
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
 	width: 50%;
 	text-align: center;
 
@@ -61,14 +61,6 @@ header button{
 	border-radius: 20px;
 	border: 1px solid transparent;
 
-
-}
-.coronaDef{
-	margin-top: 50px;
-	padding: 20px;
-	border: 4px solid #0065e4;
-		border-radius: 10px;
-	margin-bottom: 50px;
 
 }
 .definition img{
@@ -110,7 +102,7 @@ header button{
 	color: #8e8e8e
 }
 .section1{
-		width: 38%;
+	width: 38%;
 	display: inline-block;
 	float: left;
 	margin-top: 100px;
@@ -124,7 +116,7 @@ header button{
 .section1 h1, .vaccinSide h1, .symptomesSide h1{
 	color: #242429;
 	font-weight: bold;
-	font-family: serif;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 
@@ -147,7 +139,7 @@ header button{
 }
 .vaccinSide p{
 
-		color: #8e8e8e;
+	color: #8e8e8e;
 
 	margin-top: 50px;
 
@@ -191,3 +183,73 @@ header button{
 	height: 100%;
 	
 }
+
+
+
+.posts {
+	margin:60px auto;
+	max-width:150%;
+	padding:40px;
+	line-height:1.5em;
+	text-align:justify;
+  }
+  .posts h1 {
+	text-align:center;
+	color: #0065e4;	
+  }
+
+  
+  a {
+	text-decoration:none;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+  }
+  a:hover {
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	text-decoration:none;
+  }
+  
+  .coronadefinition {
+	background:#eee;
+	border:1px solid #dfdfdf;
+	color:#666;
+	font: italic 15px Playfair Display;
+	padding:11px;
+	font-weight:400;
+	max-width:250px;
+	display:block;
+	text-align:center;  
+	margin:10px auto;
+	position:relative;
+	border-radius:25px;
+  }
+  .coronadefinition:hover {
+	-webkit-box-shadow:inset 0 0 10px 25px #1884be;
+	box-shadow:inset 0 0 10px 25px #1884be;
+	border-color:#1884be;
+	color:#fff;
+  }
+.coronabox{
+	float: left;
+	width: 270px;
+	margin-top: -8%;
+	margin-right: 5%;	
+
+}
+hr {
+	background-color: #1884be;
+	
+  }
+  
+  hr.hr-1 {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(252, 248, 248, 0.959), rgba(113, 120, 212, 0.75), rgba(252, 248, 248, 0.959));
+  }
